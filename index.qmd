@@ -40,7 +40,7 @@ format:
 
 - **Advanced Analytics & Visualization:** 
   - Building optimized **Materialized Views** with spatial indices to power high-performance interactive **Tableau dashboards**.
-  
+
 
 ## Technical Challenges {.smaller}
 
@@ -76,7 +76,14 @@ format:
 - **Infrastructure Usage:** Which stations require better capacity management based on spatial clustering?
 
 
-# MAIN TITLE III
+# Key Insights & Conclusions {.smaller}
+
+- **Weather Impact on Ridership:** 
+  - Temperature strongly correlates with daily ride volume, while precipitation and wind speeds significantly reduce casual trip counts.
+- **Member vs. Casual Behavior:** 
+  - Annual members drive consistent weekday commuter patterns, whereas casual riders peak during weekends and warmer periods.
+- **Spatial Hotspots:** 
+  - High-density activity is heavily concentrated around major transit hubs like Grove Street PATH and Hoboken Terminal.
 
 [Linkedin](https://www.linkedin.com/in/khovhannisyan91/)
 
