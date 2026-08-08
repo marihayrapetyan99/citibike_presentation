@@ -33,7 +33,7 @@ format:
 ## Project Objective & Workflow {.smaller}
 
 - **Automated Data Pipeline:** 
-  - Ingesting, cleaning, and merging 2025 Citi Bike monthly trips (~1.26M+ records) with Open-Meteo weather data and Jersey City GeoJSON boundaries.
+  - Ingesting, cleaning, and merging 2025 Citi Bike monthly trips with Open-Meteo weather data and Jersey City GeoJSON boundaries.
 
 - **Spatial & Database Integration:** 
   - Storing structured data and spatial geometries in a containerized **PostgreSQL/PostGIS** database using Docker and SQLAlchemy.
@@ -44,15 +44,15 @@ format:
 
 ## Technical Challenges {.smaller}
 
-- **Data Volume & Complexity:**
-  - Processing 12 monthly Citi Bike CSV files (~1.26M+ records)  
+- **Large-Scale Data Processing:**
+  - Processing 12 monthly Citi Bike CSV files 
   - Handling missing or inconsistent coordinate data and timestamps  
   - Merging spatial GeoJSON boundaries with tabular ride data  
 
-- **Integration & Performance:**
-  - Combining asynchronous Weather API records with daily bike trips  
-  - Optimizing database queries using PostGIS spatial indexing 
-  - Building efficient Materialized Views and `.hyper` extracts for Tableau 
+- **Data Processing & Optimization::**
+  - Merging daily Citi Bike trips with Open-Meteo weather API  
+  - Speeding up spatial queries using PostGIS spatial indexing  
+  - Structuring optimized Materialized Views for seamless Tableau visualization 
 
 ## Pipeline Architecture & Workflow {.smaller}
 - **Automation:** Python scripts handling extraction, cleaning, and transformation.
@@ -60,31 +60,51 @@ format:
 - **Visualization:** Interactive dashboard for actionable urban mobility insights.
 
 
-## Project Motivation {.smaller}
-
-- **Understanding Urban Mobility:**
-  - How do weather conditions (temperature, rain, wind) impact daily ridership in Jersey City?
-  - What are the primary usage patterns distinguishing annual members from casual riders?
-
-- **Spatial & Temporal Insights:**
-  - Identifying top start and end neighborhoods and high-traffic station clusters.
-  - Analyzing peak hours, days of the week, and seasonal trends throughout 2025.
-
 ## Key Analytical Questions {.smaller}
 
-- **Weather Correlation:** Does precipitation significantly drop casual trip durations compared to members?
-- **Infrastructure Usage:** Which stations require better capacity management based on spatial clustering?
+- **Weather & Environmental Impact:** 
+  - How do temperature changes, precipitation, and wind speeds affect daily ridership and trip durations?
+- **Member vs. Casual Dynamics:** 
+  - What are the main differences in usage patterns between annual subscribers and casual riders?
+- **Spatial Mobility & Hotspots:** 
+  - Which neighborhoods and stations drive the highest traffic and clustering?
+
+## Key Takeaways
+
+- **Daily Rides vs. Maximum Wind Speed:**
+
+- Shows a slight negative trend: Increased wind speed corresponds to a moderate decrease in daily ridership.
+
+![Daily Rides vs. Maximum Wind Speed](C:/ACA/citibike_presentation/img/Daily_Rides_vs_Average_Temperature.png) 
+
+- **Daily Rides vs. Precipitation:**
+
+- Indicates a clear negative impact: Days with higher precipitation (rain) experience a sharp drop in the number of trips.
+
+![Daily Rides vs. Precipitation](C:/ACA/citibike_presentation/img/Daily_Rides_vs_Precipitation.png) 
+
+- **Seasonal Trends (Daily Rides and Daily Average Temperature):**
+
+![Daily Rides vs. Daily Average Temperature](C:/ACA/citibike_presentation/img/Daily_Rides_and_Daily_Average_Temperature.png) 
+
+- Proves a direct seasonal dependency, where warmer summer conditions drive maximum ridership while colder winter periods sharply reduce trip frequencies.
+
+- **Seasonal Trends (Daily Rides and Daily Average Temperature):**
+
+![Choropleth by Average Activity per Station](C:\ACA\citibike_presentation\img\Choropleth_by_Average_Activity_per_Station.png) 
+
+- Highlights station activity density across Jersey City neighborhoods using spatial aggregation and PostGIS boundaries.
 
 
-# Key Insights & Conclusions {.smaller}
+## Key Insights & Conclusions {.smaller}
 
 - **Weather Impact on Ridership:** 
-  - Temperature strongly correlates with daily ride volume, while precipitation and wind speeds significantly reduce casual trip counts.
+  - Daily temperatures strongly correlate with overall ride volumes, while high winds and precipitation noticeably decrease daily trips.
 - **Member vs. Casual Behavior:** 
-  - Annual members drive consistent weekday commuter patterns, whereas casual riders peak during weekends and warmer periods.
+  - Annual members drive steady weekday commuter patterns, whereas casual riders show higher flexibility, peaking during weekends and warm weather.
 - **Spatial Hotspots:** 
-  - High-density activity is heavily concentrated around major transit hubs like Grove Street PATH and Hoboken Terminal.
+  - High-density activity is heavily concentrated around core urban neighborhoods and major transit hubs like Grove Street PATH.
 
-[Linkedin](https://www.linkedin.com/in/khovhannisyan91/)
+[Linkedin](https://www.linkedin.com/in/mari-hayrapetyan-da)
 
 ![alt](link)    
