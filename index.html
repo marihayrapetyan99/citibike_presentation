@@ -162,7 +162,7 @@ Mari Hayrapetyan
 <ul>
 <li><strong>Automated Data Pipeline:</strong>
 <ul>
-<li>Ingesting, cleaning, and merging 2025 Citi Bike monthly trips (~1.26M+ records) with Open-Meteo weather data and Jersey City GeoJSON boundaries.</li>
+<li>Ingesting, cleaning, and merging 2025 Citi Bike monthly trips with Open-Meteo weather data and Jersey City GeoJSON boundaries.</li>
 </ul></li>
 <li><strong>Spatial &amp; Database Integration:</strong>
 <ul>
@@ -177,20 +177,20 @@ Mari Hayrapetyan
 <section id="technical-challenges" class="slide level2 smaller">
 <h2>Technical Challenges</h2>
 <ul>
-<li><strong>Data Volume &amp; Complexity:</strong>
+<li><strong>Large-Scale Data Processing:</strong>
 <ul>
-<li>Processing 12 monthly Citi Bike CSV files (~1.26M+ records)<br>
-</li>
+<li>Processing 12 monthly Citi Bike CSV files</li>
 <li>Handling missing or inconsistent coordinate data and timestamps<br>
 </li>
 <li>Merging spatial GeoJSON boundaries with tabular ride data</li>
 </ul></li>
-<li><strong>Integration &amp; Performance:</strong>
+<li><strong>Data Processing &amp; Optimization::</strong>
 <ul>
-<li>Combining asynchronous Weather API records with daily bike trips<br>
+<li>Merging daily Citi Bike trips with Open-Meteo weather API<br>
 </li>
-<li>Optimizing database queries using PostGIS spatial indexing</li>
-<li>Building efficient Materialized Views and <code>.hyper</code> extracts for Tableau</li>
+<li>Speeding up spatial queries using PostGIS spatial indexing<br>
+</li>
+<li>Structuring optimized Materialized Views for seamless Tableau visualization&nbsp;</li>
 </ul></li>
 </ul>
 </section>
@@ -202,49 +202,89 @@ Mari Hayrapetyan
 <li><strong>Visualization:</strong> Interactive dashboard for actionable urban mobility insights.</li>
 </ul>
 </section>
-<section id="project-motivation" class="slide level2 smaller">
-<h2>Project Motivation</h2>
-<ul>
-<li><strong>Understanding Urban Mobility:</strong>
-<ul>
-<li>How do weather conditions (temperature, rain, wind) impact daily ridership in Jersey City?</li>
-<li>What are the primary usage patterns distinguishing annual members from casual riders?</li>
-</ul></li>
-<li><strong>Spatial &amp; Temporal Insights:</strong>
-<ul>
-<li>Identifying top start and end neighborhoods and high-traffic station clusters.</li>
-<li>Analyzing peak hours, days of the week, and seasonal trends throughout 2025.</li>
-</ul></li>
-</ul>
-</section>
 <section id="key-analytical-questions" class="slide level2 smaller">
 <h2>Key Analytical Questions</h2>
 <ul>
-<li><strong>Weather Correlation:</strong> Does precipitation significantly drop casual trip durations compared to members?</li>
-<li><strong>Infrastructure Usage:</strong> Which stations require better capacity management based on spatial clustering?</li>
+<li><strong>Weather &amp; Environmental Impact:</strong>
+<ul>
+<li>How do temperature changes, precipitation, and wind speeds affect daily ridership and trip durations?</li>
+</ul></li>
+<li><strong>Member vs.&nbsp;Casual Dynamics:</strong>
+<ul>
+<li>What are the main differences in usage patterns between annual subscribers and casual riders?</li>
+</ul></li>
+<li><strong>Spatial Mobility &amp; Hotspots:</strong>
+<ul>
+<li>Which neighborhoods and stations drive the highest traffic and clustering?</li>
+</ul></li>
 </ul>
-</section></section>
-<section id="key-insights-conclusions" class="title-slide slide level1 smaller center">
-<h1>Key Insights &amp; Conclusions</h1>
+</section>
+<section id="key-takeaways" class="slide level2">
+<h2>Key Takeaways</h2>
+<ul>
+<li><p><strong>Daily Rides vs.&nbsp;Maximum Wind Speed:</strong></p></li>
+<li><p>Shows a slight negative trend: Increased wind speed corresponds to a moderate decrease in daily ridership.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="C:/ACA/citibike_presentation/img/Daily_Rides_vs_Average_Temperature.png"></p>
+<figcaption>Daily Rides vs.&nbsp;Maximum Wind Speed</figcaption>
+</figure>
+</div>
+<ul>
+<li><p><strong>Daily Rides vs.&nbsp;Precipitation:</strong></p></li>
+<li><p>Indicates a clear negative impact: Days with higher precipitation (rain) experience a sharp drop in the number of trips.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="C:/ACA/citibike_presentation/img/Daily_Rides_vs_Precipitation.png"></p>
+<figcaption>Daily Rides vs.&nbsp;Precipitation</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Seasonal Trends (Daily Rides and Daily Average Temperature):</strong></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="C:/ACA/citibike_presentation/img/Daily_Rides_and_Daily_Average_Temperature.png"></p>
+<figcaption>Daily Rides vs.&nbsp;Daily Average Temperature</figcaption>
+</figure>
+</div>
+<ul>
+<li><p>Proves a direct seasonal dependency, where warmer summer conditions drive maximum ridership while colder winter periods sharply reduce trip frequencies.</p></li>
+<li><p><strong>Seasonal Trends (Daily Rides and Daily Average Temperature):</strong></p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="C:\ACA\citibike_presentation\img\Choropleth_by_Average_Activity_per_Station.png"></p>
+<figcaption>Choropleth by Average Activity per Station</figcaption>
+</figure>
+</div>
+<ul>
+<li>Highlights station activity density across Jersey City neighborhoods using spatial aggregation and PostGIS boundaries.</li>
+</ul>
+</section>
+<section id="key-insights-conclusions" class="slide level2 smaller">
+<h2>Key Insights &amp; Conclusions</h2>
 <ul>
 <li><strong>Weather Impact on Ridership:</strong>
 <ul>
-<li>Temperature strongly correlates with daily ride volume, while precipitation and wind speeds significantly reduce casual trip counts.</li>
+<li>Daily temperatures strongly correlate with overall ride volumes, while high winds and precipitation noticeably decrease daily trips.</li>
 </ul></li>
 <li><strong>Member vs.&nbsp;Casual Behavior:</strong>
 <ul>
-<li>Annual members drive consistent weekday commuter patterns, whereas casual riders peak during weekends and warmer periods.</li>
+<li>Annual members drive steady weekday commuter patterns, whereas casual riders show higher flexibility, peaking during weekends and warm weather.</li>
 </ul></li>
 <li><strong>Spatial Hotspots:</strong>
 <ul>
-<li>High-density activity is heavily concentrated around major transit hubs like Grove Street PATH and Hoboken Terminal.</li>
+<li>High-density activity is heavily concentrated around core urban neighborhoods and major transit hubs like Grove Street PATH.</li>
 </ul></li>
 </ul>
-<p><a href="https://www.linkedin.com/in/khovhannisyan91/">Linkedin</a></p>
+<p><a href="https://www.linkedin.com/in/mari-hayrapetyan-da">Linkedin</a></p>
 
 
 
-<img data-src="link.png" class="r-stretch quarto-figure-center"><p class="caption">alt</p></section>
+<img data-src="link.png" class="r-stretch quarto-figure-center"><p class="caption">alt</p></section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="img/favicon.png" class="slide-logo"></p>

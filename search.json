@@ -4,14 +4,14 @@
     "href": "index.html#project-objective-workflow",
     "title": " Citibike Jersey City 2025",
     "section": "Project Objective & Workflow",
-    "text": "Project Objective & Workflow\n\nAutomated Data Pipeline:\n\nIngesting, cleaning, and merging 2025 Citi Bike monthly trips (~1.26M+ records) with Open-Meteo weather data and Jersey City GeoJSON boundaries.\n\nSpatial & Database Integration:\n\nStoring structured data and spatial geometries in a containerized PostgreSQL/PostGIS database using Docker and SQLAlchemy.\n\nAdvanced Analytics & Visualization:\n\nBuilding optimized Materialized Views with spatial indices to power high-performance interactive Tableau dashboards."
+    "text": "Project Objective & Workflow\n\nAutomated Data Pipeline:\n\nIngesting, cleaning, and merging 2025 Citi Bike monthly trips with Open-Meteo weather data and Jersey City GeoJSON boundaries.\n\nSpatial & Database Integration:\n\nStoring structured data and spatial geometries in a containerized PostgreSQL/PostGIS database using Docker and SQLAlchemy.\n\nAdvanced Analytics & Visualization:\n\nBuilding optimized Materialized Views with spatial indices to power high-performance interactive Tableau dashboards."
   },
   {
     "objectID": "index.html#technical-challenges",
     "href": "index.html#technical-challenges",
     "title": " Citibike Jersey City 2025",
     "section": "Technical Challenges",
-    "text": "Technical Challenges\n\nData Volume & Complexity:\n\nProcessing 12 monthly Citi Bike CSV files (~1.26M+ records)\n\nHandling missing or inconsistent coordinate data and timestamps\n\nMerging spatial GeoJSON boundaries with tabular ride data\n\nIntegration & Performance:\n\nCombining asynchronous Weather API records with daily bike trips\n\nOptimizing database queries using PostGIS spatial indexing\nBuilding efficient Materialized Views and .hyper extracts for Tableau"
+    "text": "Technical Challenges\n\nLarge-Scale Data Processing:\n\nProcessing 12 monthly Citi Bike CSV files\nHandling missing or inconsistent coordinate data and timestamps\n\nMerging spatial GeoJSON boundaries with tabular ride data\n\nData Processing & Optimization::\n\nMerging daily Citi Bike trips with Open-Meteo weather API\n\nSpeeding up spatial queries using PostGIS spatial indexing\n\nStructuring optimized Materialized Views for seamless Tableau visualization"
   },
   {
     "objectID": "index.html#pipeline-architecture-workflow",
@@ -21,17 +21,24 @@
     "text": "Pipeline Architecture & Workflow\n\nAutomation: Python scripts handling extraction, cleaning, and transformation.\nStorage: Containerized PostgreSQL/PostGIS for robust geospatial querying.\nVisualization: Interactive dashboard for actionable urban mobility insights."
   },
   {
-    "objectID": "index.html#project-motivation",
-    "href": "index.html#project-motivation",
-    "title": " Citibike Jersey City 2025",
-    "section": "Project Motivation",
-    "text": "Project Motivation\n\nUnderstanding Urban Mobility:\n\nHow do weather conditions (temperature, rain, wind) impact daily ridership in Jersey City?\nWhat are the primary usage patterns distinguishing annual members from casual riders?\n\nSpatial & Temporal Insights:\n\nIdentifying top start and end neighborhoods and high-traffic station clusters.\nAnalyzing peak hours, days of the week, and seasonal trends throughout 2025."
-  },
-  {
     "objectID": "index.html#key-analytical-questions",
     "href": "index.html#key-analytical-questions",
     "title": " Citibike Jersey City 2025",
     "section": "Key Analytical Questions",
-    "text": "Key Analytical Questions\n\nWeather Correlation: Does precipitation significantly drop casual trip durations compared to members?\nInfrastructure Usage: Which stations require better capacity management based on spatial clustering?"
+    "text": "Key Analytical Questions\n\nWeather & Environmental Impact:\n\nHow do temperature changes, precipitation, and wind speeds affect daily ridership and trip durations?\n\nMember vs. Casual Dynamics:\n\nWhat are the main differences in usage patterns between annual subscribers and casual riders?\n\nSpatial Mobility & Hotspots:\n\nWhich neighborhoods and stations drive the highest traffic and clustering?"
+  },
+  {
+    "objectID": "index.html#key-takeaways",
+    "href": "index.html#key-takeaways",
+    "title": " Citibike Jersey City 2025",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n\nDaily Rides vs. Maximum Wind Speed:\nShows a slight negative trend: Increased wind speed corresponds to a moderate decrease in daily ridership.\n\n\n\n\nDaily Rides vs. Maximum Wind Speed\n\n\n\nDaily Rides vs. Precipitation:\nIndicates a clear negative impact: Days with higher precipitation (rain) experience a sharp drop in the number of trips.\n\n\n\n\nDaily Rides vs. Precipitation\n\n\n\nSeasonal Trends (Daily Rides and Daily Average Temperature):\n\n\n\n\nDaily Rides vs. Daily Average Temperature\n\n\n\nProves a direct seasonal dependency, where warmer summer conditions drive maximum ridership while colder winter periods sharply reduce trip frequencies.\nSeasonal Trends (Daily Rides and Daily Average Temperature):\n\n\n\n\nChoropleth by Average Activity per Station\n\n\n\nHighlights station activity density across Jersey City neighborhoods using spatial aggregation and PostGIS boundaries."
+  },
+  {
+    "objectID": "index.html#key-insights-conclusions",
+    "href": "index.html#key-insights-conclusions",
+    "title": " Citibike Jersey City 2025",
+    "section": "Key Insights & Conclusions",
+    "text": "Key Insights & Conclusions\n\nWeather Impact on Ridership:\n\nDaily temperatures strongly correlate with overall ride volumes, while high winds and precipitation noticeably decrease daily trips.\n\nMember vs. Casual Behavior:\n\nAnnual members drive steady weekday commuter patterns, whereas casual riders show higher flexibility, peaking during weekends and warm weather.\n\nSpatial Hotspots:\n\nHigh-density activity is heavily concentrated around core urban neighborhoods and major transit hubs like Grove Street PATH.\n\n\nLinkedin\n\n\n\nalt"
   }
 ]
