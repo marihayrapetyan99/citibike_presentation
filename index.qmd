@@ -75,23 +75,23 @@ format:
 
 - Shows a slight negative trend: Increased wind speed corresponds to a moderate decrease in daily ridership.
 
-![Daily Rides vs. Maximum Wind Speed](C:/ACA/citibike_presentation/img/Daily_Rides_vs_Average_Temperature.png) 
+![Daily Rides vs. Maximum Wind Speed](img/Daily_Rides_vs_Average_Temperature.png) 
 
 - **Daily Rides vs. Precipitation:**
 
 - Indicates a clear negative impact: Days with higher precipitation (rain) experience a sharp drop in the number of trips.
 
-![Daily Rides vs. Precipitation](C:/ACA/citibike_presentation/img/Daily_Rides_vs_Precipitation.png) 
+![Daily Rides vs. Precipitation](img/Daily_Rides_vs_Precipitation.png) 
 
 - **Seasonal Trends (Daily Rides and Daily Average Temperature):**
 
-![Daily Rides vs. Daily Average Temperature](C:/ACA/citibike_presentation/img/Daily_Rides_and_Daily_Average_Temperature.png) 
+![Daily Rides vs. Daily Average Temperature](img/Daily_Rides_and_Daily_Average_Temperature.png) 
 
 - Proves a direct seasonal dependency, where warmer summer conditions drive maximum ridership while colder winter periods sharply reduce trip frequencies.
 
 - **Seasonal Trends (Daily Rides and Daily Average Temperature):**
 
-![Choropleth by Average Activity per Station](C:\ACA\citibike_presentation\img\Choropleth_by_Average_Activity_per_Station.png) 
+![Choropleth by Average Activity per Station](img\Choropleth_by_Average_Activity_per_Station.png) 
 
 - Highlights station activity density across Jersey City neighborhoods using spatial aggregation and PostGIS boundaries.
 
