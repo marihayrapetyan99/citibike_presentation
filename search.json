@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html#objective",
-    "href": "index.html#objective",
+    "objectID": "index.html#project-objective-workflow",
+    "href": "index.html#project-objective-workflow",
     "title": " Citibike Jersey City 2025",
-    "section": "Objective",
-    "text": "Objective\n\nTransform data into a strategic banking asset\n\nEliminate data silos and enable integrated decision-making\n\nBuild a scalable, governed, and AI-ready organization"
+    "section": "Project Objective & Workflow",
+    "text": "Project Objective & Workflow\n\nAutomated Data Pipeline:\n\nIngesting, cleaning, and merging 2025 Citi Bike monthly trips (~1.26M+ records) with Open-Meteo weather data and Jersey City GeoJSON boundaries.\n\nSpatial & Database Integration:\n\nStoring structured data and spatial geometries in a containerized PostgreSQL/PostGIS database using Docker and SQLAlchemy.\n\nAdvanced Analytics & Visualization:\n\nBuilding optimized Materialized Views with spatial indices to power high-performance interactive Tableau dashboards."
   },
   {
     "objectID": "index.html#technical-challenges",
