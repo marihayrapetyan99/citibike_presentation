@@ -11,7 +11,7 @@
 
   <meta name="author" content="Mari Hayrapetyan">
   <meta name="dcterms.date" content="2026-08-08">
-  <title>Data Vision – End-to-End Data Analytics Project</title>
+  <title>Data Vision – &nbsp;Citibike Jersey City 2025</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -139,8 +139,8 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">End-to-End Data Analytics Project</h1>
-  <p class="subtitle">Citi Bike &amp; Weather Analysis Pipeline (Jersey City 2025</p>
+  <h1 class="title">&nbsp;Citibike Jersey City 2025</h1>
+  <p class="subtitle">From Raw Data Pipeline to Interactive Tableau Dashboard</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -167,36 +167,55 @@ Mari Hayrapetyan
 <li>Build a <strong>scalable, governed, and AI-ready organization</strong></li>
 </ul>
 </section>
-<section id="the-core-problem-data-silos" class="slide level2 smaller">
-<h2>The Core Problem: Data Silos</h2>
+<section id="technical-challenges" class="slide level2 smaller">
+<h2>Technical Challenges</h2>
 <ul>
-<li><strong>Fragmented systems across:</strong>
+<li><strong>Data Volume &amp; Complexity:</strong>
 <ul>
-<li>Core banking<br>
+<li>Processing 12 monthly Citi Bike CSV files (~1.26M+ records)<br>
 </li>
-<li>CRM<br>
+<li>Handling missing or inconsistent coordinate data and timestamps<br>
 </li>
-<li>Risk<br>
-</li>
-<li>Marketing<br>
-</li>
-<li>Other Sources</li>
+<li>Merging spatial GeoJSON boundaries with tabular ride data</li>
 </ul></li>
-<li><strong>Consequences:</strong>
+<li><strong>Integration &amp; Performance:</strong>
 <ul>
-<li>Inconsistent KPIs<br>
+<li>Combining asynchronous Weather API records with daily bike trips<br>
 </li>
-<li>Slow decision-making<br>
-</li>
-<li>Poor customer experience<br>
-</li>
-<li>Limited AI capability</li>
-<li>Missing Single Source of Truth</li>
+<li>Optimizing database queries using PostGIS spatial indexing</li>
+<li>Building efficient Materialized Views and <code>.hyper</code> extracts for Tableau</li>
 </ul></li>
 </ul>
 </section>
-<section id="data-silos-in-banking" class="slide level2 smaller">
-<h2>Data Silos in Banking</h2>
+<section id="pipeline-architecture-workflow" class="slide level2 smaller">
+<h2>Pipeline Architecture &amp; Workflow</h2>
+<ul>
+<li><strong>Automation:</strong> Python scripts handling extraction, cleaning, and transformation.</li>
+<li><strong>Storage:</strong> Containerized PostgreSQL/PostGIS for robust geospatial querying.</li>
+<li><strong>Visualization:</strong> Interactive dashboard for actionable urban mobility insights.</li>
+</ul>
+</section>
+<section id="project-motivation" class="slide level2 smaller">
+<h2>Project Motivation</h2>
+<ul>
+<li><strong>Understanding Urban Mobility:</strong>
+<ul>
+<li>How do weather conditions (temperature, rain, wind) impact daily ridership in Jersey City?</li>
+<li>What are the primary usage patterns distinguishing annual members from casual riders?</li>
+</ul></li>
+<li><strong>Spatial &amp; Temporal Insights:</strong>
+<ul>
+<li>Identifying top start and end neighborhoods and high-traffic station clusters.</li>
+<li>Analyzing peak hours, days of the week, and seasonal trends throughout 2025.</li>
+</ul></li>
+</ul>
+</section>
+<section id="key-analytical-questions" class="slide level2 smaller">
+<h2>Key Analytical Questions</h2>
+<ul>
+<li><strong>Weather Correlation:</strong> Does precipitation significantly drop casual trip durations compared to members?</li>
+<li><strong>Infrastructure Usage:</strong> Which stations require better capacity management based on spatial clustering?</li>
+</ul>
 </section></section>
 <section id="main-title-iii" class="title-slide slide level1 center">
 <h1>MAIN TITLE III</h1>

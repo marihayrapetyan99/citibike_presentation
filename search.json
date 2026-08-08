@@ -2,22 +2,36 @@
   {
     "objectID": "index.html#objective",
     "href": "index.html#objective",
-    "title": "End-to-End Data Analytics Project",
+    "title": " Citibike Jersey City 2025",
     "section": "Objective",
     "text": "Objective\n\nTransform data into a strategic banking asset\n\nEliminate data silos and enable integrated decision-making\n\nBuild a scalable, governed, and AI-ready organization"
   },
   {
-    "objectID": "index.html#the-core-problem-data-silos",
-    "href": "index.html#the-core-problem-data-silos",
-    "title": "End-to-End Data Analytics Project",
-    "section": "The Core Problem: Data Silos",
-    "text": "The Core Problem: Data Silos\n\nFragmented systems across:\n\nCore banking\n\nCRM\n\nRisk\n\nMarketing\n\nOther Sources\n\nConsequences:\n\nInconsistent KPIs\n\nSlow decision-making\n\nPoor customer experience\n\nLimited AI capability\nMissing Single Source of Truth"
+    "objectID": "index.html#technical-challenges",
+    "href": "index.html#technical-challenges",
+    "title": " Citibike Jersey City 2025",
+    "section": "Technical Challenges",
+    "text": "Technical Challenges\n\nData Volume & Complexity:\n\nProcessing 12 monthly Citi Bike CSV files (~1.26M+ records)\n\nHandling missing or inconsistent coordinate data and timestamps\n\nMerging spatial GeoJSON boundaries with tabular ride data\n\nIntegration & Performance:\n\nCombining asynchronous Weather API records with daily bike trips\n\nOptimizing database queries using PostGIS spatial indexing\nBuilding efficient Materialized Views and .hyper extracts for Tableau"
   },
   {
-    "objectID": "index.html#data-silos-in-banking",
-    "href": "index.html#data-silos-in-banking",
-    "title": "End-to-End Data Analytics Project",
-    "section": "Data Silos in Banking",
-    "text": "Data Silos in Banking"
+    "objectID": "index.html#pipeline-architecture-workflow",
+    "href": "index.html#pipeline-architecture-workflow",
+    "title": " Citibike Jersey City 2025",
+    "section": "Pipeline Architecture & Workflow",
+    "text": "Pipeline Architecture & Workflow\n\nAutomation: Python scripts handling extraction, cleaning, and transformation.\nStorage: Containerized PostgreSQL/PostGIS for robust geospatial querying.\nVisualization: Interactive dashboard for actionable urban mobility insights."
+  },
+  {
+    "objectID": "index.html#project-motivation",
+    "href": "index.html#project-motivation",
+    "title": " Citibike Jersey City 2025",
+    "section": "Project Motivation",
+    "text": "Project Motivation\n\nUnderstanding Urban Mobility:\n\nHow do weather conditions (temperature, rain, wind) impact daily ridership in Jersey City?\nWhat are the primary usage patterns distinguishing annual members from casual riders?\n\nSpatial & Temporal Insights:\n\nIdentifying top start and end neighborhoods and high-traffic station clusters.\nAnalyzing peak hours, days of the week, and seasonal trends throughout 2025."
+  },
+  {
+    "objectID": "index.html#key-analytical-questions",
+    "href": "index.html#key-analytical-questions",
+    "title": " Citibike Jersey City 2025",
+    "section": "Key Analytical Questions",
+    "text": "Key Analytical Questions\n\nWeather Correlation: Does precipitation significantly drop casual trip durations compared to members?\nInfrastructure Usage: Which stations require better capacity management based on spatial clustering?"
   }
 ]
