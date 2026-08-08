@@ -1,7 +1,7 @@
 ---
-title: "Title "
-subtitle: "Subttitle"
-author: "Karen Hovhannisyan"
+title: "End-to-End Data Analytics Project "
+subtitle: "Citi Bike & Weather Analysis Pipeline (Jersey City 2025"
+author: "Mari Hayrapetyan"
 date: last-modified
 image_path: "img/"
 format:
