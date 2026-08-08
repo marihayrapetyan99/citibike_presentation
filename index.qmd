@@ -75,7 +75,7 @@ format:
 
 - Shows a slight negative trend: Increased wind speed corresponds to a moderate decrease in daily ridership.
 
-![Daily Rides vs. Maximum Wind Speed](img/Daily_Rides_vs_Average_Temperature.png) 
+[Daily Rides vs. Maximum Wind Speed](img/Daily_Rides_vs_Average_Temperature.png) 
 
 - **Daily Rides vs. Precipitation:**
 
