@@ -71,15 +71,15 @@ format:
 
 ## Key Takeaways
 
-[Daily Rides vs. Maximum Wind Speed](img/Daily_Rides_vs_Average_Temperature.png) 
+[Daily Rides vs Max Wind Speed](img/Daily_Rides_vs_Maximum_Wind_Speed.png) 
 
->Shows a slight negative trend: Increased wind speed corresponds to a moderate decrease in daily ridership. 
+>This scatter plot illustrates a negative correlation between the maximum wind speed and the number of daily rides, showing that higher wind speeds generally tend to decrease daily ride counts.
 
 ##
 
 ![Daily Rides vs. Daily Average Temperature](img/Daily_Rides_and_Daily_Average_Temperature.png) 
 
->Proves a direct seasonal dependency, where warmer summer conditions drive maximum ridership while colder winter periods sharply reduce trip frequencies.
+>This time-series chart displays the parallel trends between daily rides and daily average temperature over the course of the year 2025, highlighting how ride volume tends to fluctuate alongside seasonal temperature changes.
 
 ## 
 
