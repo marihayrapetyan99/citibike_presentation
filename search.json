@@ -32,14 +32,14 @@
     "href": "index.html#key-takeaways",
     "title": " Citibike Jersey City 2025",
     "section": "Key Takeaways",
-    "text": "Key Takeaways\nDaily Rides vs. Maximum Wind Speed\n\nShows a slight negative trend: Increased wind speed corresponds to a moderate decrease in daily ridership."
+    "text": "Key Takeaways\nDaily Rides vs Max Wind Speed\n\nThis scatter plot illustrates a negative correlation between the maximum wind speed and the number of daily rides, showing that higher wind speeds generally tend to decrease daily ride counts."
   },
   {
     "objectID": "index.html#section",
     "href": "index.html#section",
     "title": " Citibike Jersey City 2025",
     "section": "",
-    "text": "Daily Rides vs. Daily Average Temperature\nProves a direct seasonal dependency, where warmer summer conditions drive maximum ridership while colder winter periods sharply reduce trip frequencies."
+    "text": "Daily Rides vs. Daily Average Temperature\nThis time-series chart displays the parallel trends between daily rides and daily average temperature over the course of the year 2025, highlighting how ride volume tends to fluctuate alongside seasonal temperature changes."
   },
   {
     "objectID": "index.html#section-1",
