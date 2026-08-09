@@ -32,21 +32,21 @@
     "href": "index.html#key-takeaways",
     "title": " Citibike Jersey City 2025",
     "section": "Key Takeaways",
-    "text": "Key Takeaways\n\nDaily Rides vs. Maximum Wind Speed:\n\n\nShows a slight negative trend: Increased wind speed corresponds to a moderate decrease in daily ridership.\n\nDaily Rides vs. Maximum Wind Speed"
+    "text": "Key Takeaways\nDaily Rides vs. Maximum Wind Speed\n\nShows a slight negative trend: Increased wind speed corresponds to a moderate decrease in daily ridership."
   },
   {
     "objectID": "index.html#section",
     "href": "index.html#section",
     "title": " Citibike Jersey City 2025",
     "section": "",
-    "text": "Seasonal Trends (Daily Rides and Daily Average Temperature):\n\n\nDaily Rides vs. Daily Average Temperature\nProves a direct seasonal dependency, where warmer summer conditions drive maximum ridership while colder winter periods sharply reduce trip frequencies."
+    "text": "Daily Rides vs. Daily Average Temperature\nProves a direct seasonal dependency, where warmer summer conditions drive maximum ridership while colder winter periods sharply reduce trip frequencies."
   },
   {
     "objectID": "index.html#section-1",
     "href": "index.html#section-1",
     "title": " Citibike Jersey City 2025",
     "section": "",
-    "text": "Seasonal Trends (Daily Rides and Daily Average Temperature):\n\n\nChoropleth by Average Activity per Station\nHighlights station activity density across Jersey City neighborhoods using spatial aggregation and PostGIS boundaries."
+    "text": "Choropleth by Average Activity per Station\nHighlights station activity density across Jersey City neighborhoods using spatial aggregation and PostGIS boundaries."
   },
   {
     "objectID": "index.html#key-insights-conclusions",
