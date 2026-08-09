@@ -73,22 +73,21 @@ format:
 
 - **Daily Rides vs. Maximum Wind Speed:**
 
-- Shows a slight negative trend: Increased wind speed corresponds to a moderate decrease in daily ridership.
-
-## 
+>Shows a slight negative trend: Increased wind speed corresponds to a moderate decrease in daily ridership.
 
 [Daily Rides vs. Maximum Wind Speed](img/Daily_Rides_vs_Average_Temperature.png)  
 
-- **Seasonal Trends (Daily Rides and Daily Average Temperature):**
-
 ##
+
+- **Seasonal Trends (Daily Rides and Daily Average Temperature):**
 
 ![Daily Rides vs. Daily Average Temperature](img/Daily_Rides_and_Daily_Average_Temperature.png) 
 
-- Proves a direct seasonal dependency, where warmer summer conditions drive maximum ridership while colder winter periods sharply reduce trip frequencies.
-- **Seasonal Trends (Daily Rides and Daily Average Temperature):**
+>Proves a direct seasonal dependency, where warmer summer conditions drive maximum ridership while colder winter periods sharply reduce trip frequencies.
 
 ##
+
+- **Seasonal Trends (Daily Rides and Daily Average Temperature):**
 
 ![Choropleth by Average Activity per Station](img\Choropleth_by_Average_Activity_per_Station.png) 
 
@@ -98,12 +97,12 @@ format:
 ## Key Insights & Conclusions {.smaller}
 
 - **Weather Impact on Ridership:** 
-  - Daily temperatures strongly correlate with overall ride volumes, while high winds and precipitation noticeably decrease daily trips.
+  >Daily temperatures strongly correlate with overall ride volumes, while high winds and precipitation noticeably decrease daily trips.
 - **Member vs. Casual Behavior:** 
-  - Annual members drive steady weekday commuter patterns, whereas casual riders show higher flexibility, peaking during weekends and warm weather.
+  >Annual members drive steady weekday commuter patterns, whereas casual riders show higher flexibility, peaking during weekends and warm weather.
 - **Spatial Hotspots:** 
-  - High-density activity is heavily concentrated around core urban neighborhoods and major transit hubs like Grove Street PATH.
+  >High-density activity is heavily concentrated around core urban neighborhoods and major transit hubs like Grove Street PATH.
 
-[Linkedin](https://www.linkedin.com/in/mari-hayrapetyan-da)
+## Contacts
 
-![alt](link)    
+- [Linkedin](https://www.linkedin.com/in/mari-hayrapetyan-da)
