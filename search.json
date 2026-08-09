@@ -32,7 +32,28 @@
     "href": "index.html#key-takeaways",
     "title": " Citibike Jersey City 2025",
     "section": "Key Takeaways",
-    "text": "Key Takeaways\n\nDaily Rides vs. Maximum Wind Speed:\nShows a slight negative trend: Increased wind speed corresponds to a moderate decrease in daily ridership.\n\nDaily Rides vs. Maximum Wind Speed\n\nSeasonal Trends (Daily Rides and Daily Average Temperature):\n\n\n\n\nDaily Rides vs. Daily Average Temperature\n\n\n\nProves a direct seasonal dependency, where warmer summer conditions drive maximum ridership while colder winter periods sharply reduce trip frequencies.\nSeasonal Trends (Daily Rides and Daily Average Temperature):\n\n\n\n\nChoropleth by Average Activity per Station\n\n\n\nHighlights station activity density across Jersey City neighborhoods using spatial aggregation and PostGIS boundaries."
+    "text": "Key Takeaways\n\nDaily Rides vs. Maximum Wind Speed:\nShows a slight negative trend: Increased wind speed corresponds to a moderate decrease in daily ridership."
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": " Citibike Jersey City 2025",
+    "section": "",
+    "text": "Daily Rides vs. Maximum Wind Speed\n\nSeasonal Trends (Daily Rides and Daily Average Temperature):"
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": " Citibike Jersey City 2025",
+    "section": "",
+    "text": "Daily Rides vs. Daily Average Temperature\nProves a direct seasonal dependency, where warmer summer conditions drive maximum ridership while colder winter periods sharply reduce trip frequencies.\nSeasonal Trends (Daily Rides and Daily Average Temperature):"
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": " Citibike Jersey City 2025",
+    "section": "",
+    "text": "Choropleth by Average Activity per Station\nHighlights station activity density across Jersey City neighborhoods using spatial aggregation and PostGIS boundaries."
   },
   {
     "objectID": "index.html#key-insights-conclusions",
